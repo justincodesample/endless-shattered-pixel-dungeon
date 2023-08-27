@@ -147,7 +147,7 @@ public class Swarm extends Mob {
 	
 	@Override
 	public Item createLoot(){
-		Dungeon.LimitedDrops.SWARM_HP.count++;
+		// Dungeon.LimitedDrops.SWARM_HP.count++;
 		return super.createLoot();
 	}
 }

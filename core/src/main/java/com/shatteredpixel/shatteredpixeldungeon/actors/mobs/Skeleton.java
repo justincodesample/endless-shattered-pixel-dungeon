@@ -98,7 +98,7 @@ public class Skeleton extends Mob {
 
 	@Override
 	public Item createLoot() {
-		Dungeon.LimitedDrops.SKELE_WEP.count++;
+		// Dungeon.LimitedDrops.SKELE_WEP.count++;
 		return super.createLoot();
 	}
 

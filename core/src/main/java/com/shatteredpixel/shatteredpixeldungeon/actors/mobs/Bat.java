@@ -82,7 +82,7 @@ public class Bat extends Mob {
 	
 	@Override
 	public Item createLoot(){
-		Dungeon.LimitedDrops.BAT_HP.count++;
+		// Dungeon.LimitedDrops.BAT_HP.count++;
 		return super.createLoot();
 	}
 	

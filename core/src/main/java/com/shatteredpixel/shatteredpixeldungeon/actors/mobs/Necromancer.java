@@ -91,7 +91,7 @@ public class Necromancer extends Mob {
 	
 	@Override
 	public Item createLoot(){
-		Dungeon.LimitedDrops.NECRO_HP.count++;
+		// Dungeon.LimitedDrops.NECRO_HP.count++;
 		return super.createLoot();
 	}
 	
