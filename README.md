@@ -1,3 +1,32 @@
+# Endless Shattered Pixel Dungeon
+This is a modified version of shattered pixel dungeon.
+The modification makes endless item farming possible in the game.
+
+# Changelog
+The modifications are listed below:
+- items will drop regardless of hero's level
+- generate keys for all crystal doors in crystal choice room level
+- generate keys for all crystal chests in crystal vault room level
+- removed items drop limit counter increment on the following monsters
+
+# File Modified
+	actors.mobs.Mob.java
+	rooms.special.CrystalChoiceRoom.java
+	rooms.special.CrystalVaultRoom.java
+	actors.mobs.Bat.java
+	actors.mobs.DM200.java
+	actors.mobs.Golem.java
+	actors.mobs.Guard.java
+	actors.mobs.Necromancer.java
+	actors.mobs.Shaman.java
+	actors.mobs.Skeleton.java
+	actors.mobs.Slime.java
+	actors.mobs.Swarm.java
+	actors.mobs.Theif.java
+	actors.mobs.Warlock.java
+
+# Below is the message from the original developers.
+
 # Shattered Pixel Dungeon
 
 [Shattered Pixel Dungeon](https://shatteredpixel.com/shatteredpd/) is an open-source traditional roguelike dungeon crawler with randomized levels and enemies, and hundreds of items to collect and use. Its based on the [source code of Pixel Dungeon](https://github.com/00-Evan/pixel-dungeon-gradle), by [Watabou](https://www.watabou.ru).
